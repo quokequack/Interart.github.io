@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    margin-top:5%;
+    background-color:#2C00F0;
+}
+.cards{
+    display:flex;
+    justify-content:center;
+}
+.card-1{
+    width:400px;
+    height:500px;
+    background-color:#1A54F0;
+    border-radius:10px 0px 0px 10px;
+    align-items:center;
+    justify-content:center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px 50px 42px 12px rgba(0,0,0,0.1); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px 50px 42px 12px rgba(0,0,0,0.1);
+}
+.card-1 h1{
+    background-image:linear-gradient(to right,#24C4F0,white);
+    color:transparent;
+    background-clip:text;
+    -webkit-background-clip:text;
+    font-size:2.5vw;
+    text-align:center;
+    font-family:"Noto Sans",sans-serif;
+    text-transform:uppercase;
+}
+.card-1 p{
+    color:#fff;
+    text-align:center;
+    font-size:1.2vw;
+    font-family:"Noto Sans", sans-serif;
+    font-style:italic;
+    margin-bottom:2%;
+}
+form input[type="text"], input[type="password"]{
+    background:none;
+    border:2px solid #2300BD;
+    margin-top:5px;
+    padding:18px 10px;
+    color:#24C4F0;
+    display:flex;
+    margin-left:25%;
+}
+form input[type="submit"]{
+    border:2px solid #2300BD;
+    color:#24C4F0;
+    background:none;
+    padding:19px 10px;
+    display:inline-block;
+    margin-left:25%;
+    margin-top:2%;
+    margin-bottom:2%;
+    cursor:pointer;
+}
+input[type="reset"]{
+    border:2px solid #2300BD;
+    color:#24C4F0;
+    background:none;
+    padding:19px 10px;
+    display:inline-block;
+    margin-top:2%;
+    cursor:pointer;
+}
+input[type="reset"]:hover, input[type="submit"]:hover{
+    background-image:linear-gradient(to left,#2300BD,#24C4F0);
+    color:#fff;
+} 
+.login p{
+    margin-bottom:5%;
+}
+.login a{
+    background-image:linear-gradient(to left,#2300BD,#24C4F0);
+    color:white;
+    padding:16px 8px;
+    text-decoration:none;
+    font-style:italic;
+    font-family:"Trebuchet Ms",sans-serif;
+    margin-left:37%;
+}
+.card-2{
+    width:400px;
+    height:500px;
+    border-radius:0px 10px 10px 0px;
+    background-image:url("https://i.pinimg.com/564x/b8/de/de/b8dede744f8c3533f66060941af8d8d2.jpg");
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 50px 50px 42px 12px rgba(0,0,0,0.1); 
+    box-shadow: 0px 10px 13px -7px #000000, 50px 50px 42px 12px rgba(0,0,0,0.1);
+}

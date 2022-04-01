@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    display:flex;
+    background-color:#2C00F0;
+    height:100vh;
+    justify-content:center;
+}
+
+.card-1{
+    width:400px;
+    height:500px;
+    background-image:url("https://i.pinimg.com/564x/8f/80/2b/8f802b771f5b318c1c7d2244a764e875.jpg");
+    position:relative;
+    margin-bottom:auto;
+    margin-top:auto;
+    border-radius:10px 0px 0px 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px 50px 42px 12px rgba(0,0,0,0.1); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px 50px 42px 12px rgba(0,0,0,0.1);
+    
+}
+.card-2{
+    width:400px;
+    height:500px;
+    background-color:#1A54F0;
+    display:inline-block;
+    margin-top:auto;
+    margin-bottom:auto;
+    border-radius:0px 10px 10px 0px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 50px 50px 42px 12px rgba(0,0,0,0.1); 
+    box-shadow: 0px 10px 13px -7px #000000, 50px 50px 42px 12px rgba(0,0,0,0.1);
+    
+}
+form {
+    position:relative;
+    text-align:center;
+    justify-content:center;
+}
+form h1{
+    background-image:linear-gradient(to right,#24C4F0,white);
+    color:transparent;
+    background-clip:text;
+    -webkit-background-clip:text;
+    font-family:"Noto", sans-serif;
+    text-transform:uppercase;
+    margin-top:20px;
+    font-size:40px;
+}
+p{
+    color:#fff;
+    font-family:"Noto Sans", sans-serif;
+    font-size:16px;
+    margin-top:20px;
+    font-style:italic;
+}
+form input[type="text"], form input[type="password"]{
+    border:0;
+    background:none;
+    border:2px solid #24C4F0;
+    margin:0;
+    margin-top:20px;
+    padding:18px 10px;
+    outline:none;
+    color:#24C4F0;
+    transition:0.25s;
+    display:flex;
+    margin-left:100px;
+    text-align:center;
+    cursor:pointer;
+}
+button[type="submit"]{
+    border:0;
+    background:none;
+    border:2px solid #24C4F0;
+    margin:0;
+    margin-top:20px;
+    padding:16px 14px;
+    outline:none;
+    color:#24C4F0;
+    transition:0.25s;
+    display:flex;
+    margin-left:160px;
+}
+button[type="submit"]:hover{
+    background-color:#24C4F0;
+    color:#fff;
+    cursor:pointer;
+}
+ul{
+    display:flex;
+    justify-content:center;
+    margin-left:10px;
+    list-style:none;
+}
+ul li a{
+   color:#fff;
+   font-size:20px;
+   width:50px;
+   transition:0s linear;
+   margin-top:10px;
+   text-decoration:none;
+}
+ul li a:hover{
+    color:#24C4F0;
+    cursor:pointer;
+}
+.cadastro p{
+    margin-left:100px;
+    margin-bottom:25px;
+}
+.cadastro a{
+    background-image:linear-gradient(to left,#1C9BBD,white);
+    color:white;
+    padding:16px 8px;
+    border-radius:30px;
+    margin:10px;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-style:italic;
+    font-family:"Trebuchet Ms",sans-serif;
+    margin-left:140px;
+    transition:0s linear;
+}
+.cadastro a:hover{
+    background-image:linear-gradient(to right,#24C4F0,white);
+    color:white;
+}
