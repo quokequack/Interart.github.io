@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    height:100vh;
+    background-color:#575AE6;
+}
+.menu{
+    margin-top: 10px;
+    margin-left:29%;
+    padding:0;
+}
+.menu li{
+    display:inline-block;
+    list-style:none;
+    border:2px solid #080961;
+    padding:10px 50px;
+    background-color:#080961;
+    margin-right:30px;
+    font-family:"Trebuchet Ms",sans-serif;
+    border-radius:10px;
+}
+.menu a{
+    color:white;
+    text-decoration:none;
+}
+.menu li:hover{
+    background-color:#575AE6;
+    cursor:pointer;
+    border:2px solid white;
+}
+h1{
+    margin-top:20px;
+    font-size:60px;
+    font-family:"Segoe UI";
+    text-align:center;
+    color:white;
+}
+.linha{
+    border:2px solid white;
+    width:100%;
+}
+.personagens{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    justify-content:center;
+    align-items:center;
+    grid-gap:30px;
+}
+.personagens > div{
+    margin-top:20px;
+    margin-left:px;
+    width:400px;
+    height:250px;
+    border:2px solid white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.personagens .item-1{
+    background-image:url("https://i.pinimg.com/564x/28/50/5f/28505f40fe47196044378f44318a8a63.jpg");
+}
+.personagens .item-3{
+    background-image:url("https://i.pinimg.com/564x/2f/b5/78/2fb578074bba9280b3693872458e560c.jpg");
+}
+video{
+    width:396px;
+    height:246px;
+}
+h2{
+    margin-top:20px;
+    font-size:20px;
+    font-family:"Segoe UI";
+    text-align:center;
+    color:white;
+}
+button{
+    border:none;
+    width:170px;
+    height:70px;
+    text-align:center;
+    margin-top:20px;
+    margin-left:44%;
+    background-color:#1317E0;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+    -webkit-box-shadow: 0px 10px 13px -7px black, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px black, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+button:hover{
+    cursor:pointer;
+    background-color:white;
+    color:#1317E0;
+}
